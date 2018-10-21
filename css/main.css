@@ -51,7 +51,7 @@ body{
     max-width: 90%;
     overflow: hidden;
     border-right: 4px solid #990202;
-    animation: typing 2s steps(30, end), blinking 0.8s linear infinite;
+    animation: typing 2s steps(18, end), blinking 1s linear infinite;
 }
 
 .ani-opacity{
@@ -69,7 +69,8 @@ body{
 }
 
 #whale-sec{
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.0));
+    /* background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.0)); */
+    background-color: rgba(0,0,0,0.7);
     display: grid;
     grid-template-columns: 1fr 1fr;
     overflow: hidden;
