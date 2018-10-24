@@ -16,6 +16,15 @@ body{
     background-position: top right;
 }
 
+#divider{
+    width: 100%;
+    max-height: 50px;
+}
+
+#divider img{
+    max-height: 100%;
+}
+
 .lg-title{
     font-size: 35px;
     letter-spacing: 17px; 
@@ -70,7 +79,7 @@ body{
 
 #whale-sec{
     /* background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.0)); */
-    background-color: rgba(0,0,0,0.7);
+    /* background-color: rgba(0,0,0,0.7); */
     display: grid;
     grid-template-columns: 1fr 1fr;
     overflow: hidden;
@@ -136,13 +145,36 @@ body{
     grid-row-start: 1;
     text-align: center;
     z-index: 2;
-    background-color: rgba(0,0,0,0.7);
+    /* background-color: rgba(0,0,0,0.7); */
 }
 
 #straws-info-2{
     padding-top: 45px;
 }
 
+
+#strawcycle{
+    margin: 0px 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#conveyor{
+    max-width: 350px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#broom{
+    max-width: 150px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#conveyor img, #broom img{
+    max-width: 100%;
+}
 
 
 
