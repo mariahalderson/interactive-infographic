@@ -21,18 +21,18 @@ var clickme = document.querySelector(".clickme"),
     function showitem(){
         whalefact.style.opacity="1";
         clickme.style.opacity="0";
-        strawsin();
+       // strawsin();
         
         strawcount();
         
     }
 
-    function strawsin(){
+    //function strawsin(){
         //strawLeft.style.width="100%";
         //strawRight.style.width="100%";
-        strawsLeft.style.transform = "translateX(0px)";
-        strawsRight.style.transform = "translateX(0px)";
-    }
+        //strawsLeft.style.transform = "translateX(0px)";
+        //strawsRight.style.transform = "translateX(0px)";
+    //}
 
     function addcount(){
         strawcounter.innerHTML = strawnum + " million";

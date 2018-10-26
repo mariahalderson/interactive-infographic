@@ -129,14 +129,14 @@ body{
 #straw-left{
     grid-column: 1 / 2;
     max-width: 90%;
-    transform: translateX(-200px);
+    /* transform: translateX(-200px); */
     transition: all 1.5s ease-out;
 }
 
 #straw-right{
      grid-column: 2 / -1;
      margin-top: 10px;
-     transform: translateX(200px);
+     /* transform: translateX(200px); */
      transition: all 1.5s ease-out;
 }
 
