@@ -31,6 +31,12 @@ body{
     text-transform: uppercase;
 }
 
+.sub-title{
+    font-size: 25px;
+    /* font-weight: 500; */
+    margin-bottom: 20px;
+}
+
 .xl{
     font-size: 45px;
     font-weight: 900;
@@ -145,6 +151,10 @@ body{
     grid-row-start: 1;
     text-align: center;
     z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     /* background-color: rgba(0,0,0,0.7); */
 }
 
@@ -156,8 +166,18 @@ body{
 #strawcycle{
     margin: 0px 10px;
     padding: 10px;
+    padding-bottom: 20px;
     border-radius: 20px;
     background-color: rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+@media screen and (min-width: 550px){
+    #strawcycle-1, #strawcycle-2{
+        max-width: 75%;
+        margin: auto;
+        text-align: center;
+    }
 }
 
 #conveyor{
@@ -174,6 +194,50 @@ body{
 
 #conveyor img, #broom img{
     max-width: 100%;
+}
+
+#straws-percent{
+    text-align: center;
+    margin: 60px 0;
+}
+
+#straws-percent .bold{
+    color: #990202;
+    font-weight: 700;
+}
+
+#plastics-info{
+    display: grid;
+    margin-top: 60px;
+}
+
+#plastics-info div img{
+    max-width: 100%;
+    max-height: 110px;
+}
+
+#cup{
+    grid-column: 1 / 2;
+}
+
+#bag{
+    grid-column: 2 / 3;
+}
+
+#lure{
+    grid-column: 3 / 4;
+}
+
+#takeout{
+    grid-column: 4 / 5;
+}
+
+#infoText{
+    grid-column: 1 / 5;
+    border-radius: 100%;
+    background-color: yellow;
+    text-align: center;
+    margin: auto;
 }
 
 

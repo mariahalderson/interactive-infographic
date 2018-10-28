@@ -80,7 +80,7 @@
        <section id="strawcycle">
            <h2 class="hide"> The Life Cycle of Your Plastic Straw</h2>
 
-           <p class="lg-title">Title</p>
+           <p class="sub-title">What about the straws that do get recycled?</p>
            <p>When you recycle your plastic straw, it gets sent to your local recycling plant.</p>
 
            <div id="strawcycle-1">
@@ -92,14 +92,14 @@
 
            <div id="strawcycle-2">
             <div id="broom">
-                <img src="images/broom.svg" alt="broom and dustpan">
+                <img src="images/broom.svg" alt="broom and dustpan" class="wow slideInRight" data-wow-delay="0.2s" data-wow-duration="1.0s">
             </div>
             <p>From there, they are swept up and thrown into the garbage to be sent to a landfill. And eventually end up in the ocean.</p>
         </div>
 
-        <div id="strawcycle-conclusion">
+        <!-- <div id="strawcycle-conclusion">
             <p>Even by recycling straws, you are only delaying the time it will take for them to end up with the rest of the ocean's plastic.</p>
-        </div>
+        </div> -->
 
        </section>
 
@@ -110,7 +110,7 @@
        <section id="straws-percent">
            <h2 class="hide">The Real Numbers</h2>
 
-           <p class="lg-title">Although 57 Million per day sounds like a lot, plastic straws actually only account for 0.3% of all plastic in the ocean.</p>
+           <p class="sub-title wow fadeInUp">Although 57 Million per day sounds like a lot, plastic straws actually only account for <span class="bold"> 0.3% </span>  of all plastic in the ocean.</p>
 
        </section>
 
@@ -120,16 +120,14 @@
     <section id="otherPlastics">
         <h2 class="hide">The More Prominent Culprits</h2>
 
-        <p class="lg-title">Do More Than 0.3%:</p>
+        <p class="lg-title wow fadeInUp" datd-wow-delay="0.8s">Do More Than 0.3%:</p>
         <p>click an image to learn more...</p>
 
         <div id="plastics-info">
-            <ul>
-                <li><div><img src="images/cup.svg" alt="take-out coffee cup"></div></li>
-                <li><div><img src="images/bag.svg" alt="plastic bag"></div></li>
-                <li><div><img src="images/lure.svg" alt="fishing lure"></div></li>
-                <li><div><img src="images/takeout.svg" alt="takeout container"></div></li>
-            </ul>
+            <div id="cup" class="button"><img src="images/cup.svg" alt="takeout coffee cup"></div>
+            <div id="bag" class="button"><img src="images/bag.svg" alt="plastic bag"></div>
+            <div id="lure" class="button"><img src="images/lure.svg" alt="fishing lure"></div>
+            <div id="takeout" class="button"><img src="images/takeout.svg" alt="takeout container"></div>
 
             <div id="infoText">
                 <p>text...</p>
@@ -146,6 +144,7 @@
     </section>
 
     </main>
+    <script src="js/fetch.js"></script>
     <script src="js/wow.min.js"></script>
               <script>
               new WOW().init();
