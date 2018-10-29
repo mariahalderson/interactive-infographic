@@ -234,10 +234,17 @@ body{
 
 #infoText{
     grid-column: 1 / 5;
-    border-radius: 100%;
+    padding: 10px;
+    border-radius: 20px;
     background-color: yellow;
     text-align: center;
-    margin: auto;
+    margin: 20px;
+}
+
+#infoText p{
+    max-width: 90%;
+    text-align: center;
+    color: #333;
 }
 
 
