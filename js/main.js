@@ -20,7 +20,9 @@ var clickme = document.querySelector(".clickme"),
 
     function showitem(){
         whalefact.style.opacity="1";
-        clickme.style.opacity="0";
+        var whaleLink = document.querySelector("#whale-img p");
+        whaleLink.style.opacity="0";
+        //clickme.style.opacity="0";
        // strawsin();
         
         strawcount();

@@ -98,6 +98,7 @@ body{
     width: 200%;
     z-index: 2;
     animation: floating 3s linear infinite;
+    cursor: pointer;
 }
 
 #whale-img img{
@@ -262,6 +263,10 @@ body{
     display: block;
     width: 200px;
     margin: 0 auto 40px auto;
+}
+
+
+
 }
 
 
