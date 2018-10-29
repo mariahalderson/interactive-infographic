@@ -1,21 +1,21 @@
 [
     {
         "id": "cup",
-        "info":  "CUPS Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "info":  "Starbucks alone sends an estimated four billion paper cups to landfills ever year. Although the cups are ostensibly recyclable, their plastic liner ensure that they become garbage everywhere without access to the most advanced recycling facilities"
     },
 
     {
         "id": "bag",
-        "info":  " BAGS Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "info":  "The U.S. was estimated to consume 100 billion bags in 2014, more recent estimates stand at 360 billion bags per year, according to an EPA blog. EPA-Plastic reports that only 10 % of thick or HDPE bags and 5% of thin bags are recovered, so the rest goes waste. The New Hampshire Department of Environmental Services writes that \"Once in the water, plastic never fully biodegrades\" and includes an estimated decomposition time for plastic bags at 10 to 20 years. However, depending on the bag's composition, it could take upwards of 1,000 years.<a href='https://greenliving.lovetoknow.com/Plastic_Bags_in_the_Ocean'>[2]</a>"
     },
 
     {
         "id": "lure",
-        "info":  " FISHING GEAR Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "info":  "Fishing gear is a far bigger issue to the ocean garbage problem than plastic straws, water bottles and grocery bags, but often flies under the radar as governments and environment groups focus on single-use plastics that will get more attention from businesses and consumers. Measurements show fishing nets make up almost half the weight of the 80,000-tonne Great Pacific Garbage Patch. In addition to nets, ghost gear spotted in the patch includes crab pots, oyster spacers, ropes, eel traps, crates and baskets.  <a href='https://www.ctvnews.ca/politics/canada-signs-global-pact-to-help-rid-world-s-oceans-of-abandoned-fishing-gear-1.4103743'>[3]</a>"
     },
 
     {
         "id": "takeout",
-        "info":  " TAKEOUT Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "info":  "Your takeaway box is a megaplastic (items of plastic bigger that 10cm in size that stay intact for a long time). These plastics have been made to resist age and not break down easily. These containers slowly degrade and break down into macroplastics (2.5cm to 10cm), mesoplastics (5mm to 2.5cm), microplastics (smaller than 5mm). These microplastics have large surface area to volume ratios, which mean that they concentrate chemical toxins on their surfaces that then can transfer to the animals that eat them. This ingestion has been seen in multiple marine organisms and has led to a debate over whether these can lead to ecological effects both to the organism and any humans who consume them. <a href='http://theconversation.com/tax-plastic-takeaway-boxes-the-scourge-of-the-oceans-87818'>[4]</a>"
     }
 ]

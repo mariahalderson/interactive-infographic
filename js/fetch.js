@@ -7,6 +7,7 @@ var buttons = document.querySelectorAll(".button"),
         fetch('info.json')
         .then((res) => res.json())
         .then((data) => {
+            
             var currentInfo = e.target.id;
             console.log(data[currentInfo].info);
             textArea.innerHTML = "<p>" + data[currentInfo].info + "</p>";
