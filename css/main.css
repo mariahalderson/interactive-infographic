@@ -232,6 +232,10 @@ body{
     grid-column: 4 / 5;
 }
 
+.button{
+    cursor: pointer;
+}
+
 #infoText{
     grid-column: 1 / 5;
     padding: 10px;
@@ -239,12 +243,25 @@ body{
     background-color: yellow;
     text-align: center;
     margin: 20px;
+    transition: all 0.4s ease-out;
 }
 
 #infoText p{
     max-width: 90%;
     text-align: center;
     color: #333;
+}
+
+#learnmore{
+    border: 3px solid #fff;
+    border-radius: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    width: 200px;
+    margin: 0 auto 40px auto;
 }
 
 
