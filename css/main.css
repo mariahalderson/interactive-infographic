@@ -16,10 +16,25 @@ body{
     background-position: top right;
 }
 
+#divider{
+    width: 100%;
+    max-height: 50px;
+}
+
+#divider img{
+    max-height: 100%;
+}
+
 .lg-title{
     font-size: 35px;
     letter-spacing: 17px; 
     text-transform: uppercase;
+}
+
+.sub-title{
+    font-size: 25px;
+    /* font-weight: 500; */
+    margin-bottom: 20px;
 }
 
 .xl{
@@ -70,7 +85,7 @@ body{
 
 #whale-sec{
     /* background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.0)); */
-    background-color: rgba(0,0,0,0.7);
+    /* background-color: rgba(0,0,0,0.7); */
     display: grid;
     grid-template-columns: 1fr 1fr;
     overflow: hidden;
@@ -120,14 +135,14 @@ body{
 #straw-left{
     grid-column: 1 / 2;
     max-width: 90%;
-    transform: translateX(-200px);
+    /* transform: translateX(-200px); */
     transition: all 1.5s ease-out;
 }
 
 #straw-right{
      grid-column: 2 / -1;
      margin-top: 10px;
-     transform: translateX(200px);
+     /* transform: translateX(200px); */
      transition: all 1.5s ease-out;
 }
 
@@ -136,13 +151,101 @@ body{
     grid-row-start: 1;
     text-align: center;
     z-index: 2;
-    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(0,0,0,0.7); */
 }
 
 #straws-info-2{
     padding-top: 45px;
 }
 
+
+#strawcycle{
+    margin: 0px 10px;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+@media screen and (min-width: 550px){
+    #strawcycle-1, #strawcycle-2{
+        max-width: 75%;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+#conveyor{
+    max-width: 350px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#broom{
+    max-width: 150px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#conveyor img, #broom img{
+    max-width: 100%;
+}
+
+#straws-percent{
+    text-align: center;
+    margin: 60px 0;
+}
+
+#straws-percent .bold{
+    color: #990202;
+    font-weight: 700;
+}
+
+#plastics-info{
+    display: grid;
+    margin-top: 60px;
+}
+
+#plastics-info div img{
+    max-width: 100%;
+    max-height: 110px;
+}
+
+#cup{
+    grid-column: 1 / 2;
+}
+
+#bag{
+    grid-column: 2 / 3;
+}
+
+#lure{
+    grid-column: 3 / 4;
+}
+
+#takeout{
+    grid-column: 4 / 5;
+}
+
+#infoText{
+    grid-column: 1 / 5;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: yellow;
+    text-align: center;
+    margin: 20px;
+}
+
+#infoText p{
+    max-width: 90%;
+    text-align: center;
+    color: #333;
+}
 
 
 
